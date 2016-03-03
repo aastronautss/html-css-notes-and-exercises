@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <form action="/" method="post">
+      <fieldset>
+        <dl>
+          <dt><label for="name">Name</label></dt>
+          <dd><input name="name" type="text" required></dd>
+          <dt><label for="email">Email</label></dt>
+          <dd><input name="email" type="text" required></dd>
+          <dt><label for="phone">Phone Number</label></dt>
+          <dd><input name="phone" type="tel" required></dd>
+          <dt><label for="message">Message</label></dt>
+          <dd><textarea name="message" rows="10" cols="20" required>Write something.</textarea></dd>
+          <dt><button type="submit">Submit form</button></dt>
+          <dd><button type="reset">Clear</button></dd>
+        </dl>
+      </fieldset>
+    </form>
+
+    <form action="/" method="get">
+      <fieldset>
+        <label for="search">Search</label>
+        <input name="search" type="text">
+        <label><input name="type" type="radio" value="tv" checked>TV</label>
+        <label><input name="type" type="radio" value="movies">Movies</label>
+        <label><input name="type" type="radio" value="music">Music</label>
+
+        <input type="button" value="Search">
+      </fieldset>
+    </form>
+
+    <form action="/" method="post">
+      <fieldset>
+        <dl>
+          <dt><label for="movie">Movie</label></dt>
+          <dd>
+            <select name="movie">
+              <option value="looper" selected>Looper</option>
+              <option value="frozen">Frozen</option>
+              <option value="tommy_boy">Tommy Boy</option>
+            </select>
+          </dd>
+
+          <dt><label for="rating">Rating</label></dt>
+          <dd>
+            <input type="range" min="1" max="5" step="1">
+          </dd>
+        </dl>
+
+        <p><label><input type="checkbox" name="favorite" checked>Add to favorites</label></p>
+
+        <input type="submit" value="Rate">
+      </fieldset>
+    </form>
+  </body>
+</html>

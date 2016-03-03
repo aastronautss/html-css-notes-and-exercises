@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      .imgwrapper {
+        display: block;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      .imgwrapper img {
+        width:  100%;
+        min-width: 500px;
+      }
+
+      .fun-with-divs {
+        display: inline-block;
+        width: 300px;
+        height: 300px;
+        box-sizing: border-box;
+      }
+
+      .one {
+        background-color: #fcc;
+        padding: 20px;
+      }
+
+      .two {
+        background-color: #ccf;
+        border: 2px solid #000; /* This makes the div wider because the box-sizing attribute is set to the default content-box. */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="imgwrapper">
+      <img src="img.jpg">
+    </div>
+
+    <div class="fun-with-divs one">
+
+    </div>
+
+    <div class="fun-with-divs two">
+
+    </div>
+  </body>
+</html>
