@@ -1,0 +1,197 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font: 28px Helvetica, Arial, sans-serif;
+  background: #fff;
+}
+
+i {
+  font-style: italic;
+}
+
+article {
+  box-sizing: border-box;
+  margin: 8px;
+  border: 2px solid #000;
+  padding: 16px;
+  width: 684px;
+}
+
+header {
+  border-bottom: 15px solid #000;
+}
+
+header h1 {
+  font-size: 58px;
+  font-weight: bold;
+}
+
+header h2 {
+  margin-top: 5px;
+  border-top: 30px solid #000;
+  border-bottom: 1px solid #000;
+  padding: 12px 0;
+  font-weight: bold;
+}
+
+header dl,
+header dd,
+header dt {
+  display: inline-block;
+}
+
+header dl {
+  padding: 5px 0;
+}
+
+header dl:first-child {
+  float: left;
+}
+
+header dl:last-child {
+  float: right;
+}
+
+header dt {
+  font-weight: bold;
+}
+
+header dl + dl dt {
+  font-weight: normal;
+}
+
+table {
+  margin-top: 10px;
+}
+
+th,
+td {
+  padding: 1px;
+}
+
+th {
+  font-weight: bold;
+}
+
+thead th {
+  text-align: right;
+}
+
+tbody td,
+tbody th {
+  border-top: 1px solid #000;
+}
+
+tbody th {
+  text-align: left;
+}
+
+tbody dt,
+tbody dd {
+  display: inline-block;
+}
+
+
+.indent {
+  content: "";
+  border-top: none;
+  width: 25px;
+}
+
+.indent + th {
+  font-weight: normal;
+}
+
+tbody th + td {
+  text-align: right;
+  font-weight: bold;
+}
+
+tbody + tbody {
+  border-top: 30px solid #000;
+}
+
+tbody:last-of-type th,
+tbody:last-of-type td {
+  font-weight: normal;
+}
+
+table:first-of-type tbody:last-of-type {
+  border-bottom: 1px solid #000;
+}
+
+tfoot td {
+  font-size: 24px;
+  padding: 10px 15px;
+  text-indent: -1rem;
+}
+
+table:last-of-type {
+  font-size: 22px;
+  width: 100%;
+}
+
+table:last-of-type thead th {
+  font-weight: normal;
+}
+
+table:last-of-type td,
+table:last-of-type th {
+  border: none;
+}
+
+table:last-of-type thead tr {
+  border-bottom: 1px solid #000;
+}
+
+table:last-of-type thead th,
+table:last-of-type td {
+  text-align: left;
+}
