@@ -234,7 +234,7 @@ footer {
   }
 }
 
-@media (max-width: 524px) {
+@media (max-width: 767px) {
   h1 {
     background-size: 90% auto;
   }
@@ -251,7 +251,7 @@ footer {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   header {
     padding: 40px 0 0 0;
   }
